@@ -1,0 +1,35 @@
+name: gold-signals
+
+on:
+  schedule:
+    - cron: "*/15 * * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install libraries
+        run: pip install yfinance pandas
+
+      - name: Run signal bot
+        run: python signal_bot.py
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+
+      - name: Save state
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "signal-bot@users.noreply.github.com"
+          git add last_signal.txt || true
+          git diff --cached --quiet || (git commit -m "state" && git push)
