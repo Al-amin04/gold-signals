@@ -99,8 +99,16 @@ def send(msg):
         print("Missing TG_TOKEN or TG_CHAT")
         return
     url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
-    data = urllib.parse.urlencode({"chat_id": TG_CHAT, "text": msg}).encode()
-    urllib.request.urlopen(url, data, timeout=15)
+    for chat in TG_CHAT.split(","):
+        chat = chat.strip()
+        if not chat:
+            continue
+        try:
+            data = urllib.parse.urlencode(
+                {"chat_id": chat, "text": msg}).encode()
+            urllib.request.urlopen(url, data, timeout=15)
+        except Exception as e:
+            print("Telegram error for", chat, e)
 
 
 def main():
