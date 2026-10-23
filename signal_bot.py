@@ -104,7 +104,7 @@ def send(msg):
 
 
 def main():
-        if os.environ.get("TEST_MSG"):
+    if os.environ.get("TEST_MSG"):
         send("Cloud bot test: Telegram works")
     b = bias(get_df("1h", "1mo"))
     if not b:
