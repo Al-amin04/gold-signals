@@ -26,6 +26,7 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
+          TEST_MSG: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
       - name: Save state
         run: |
