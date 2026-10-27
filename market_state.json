@@ -1,6 +1,6 @@
 {
- "bias": "none",
- "zone_key": null,
- "stage": null,
+ "bias": "bear",
+ "zone_key": "bear|2026-10-22 04:00:00-04:00|2026-10-16 00:00:00-04:00",
+ "stage": "waiting",
  "status_date": "2026-10-27"
 }
