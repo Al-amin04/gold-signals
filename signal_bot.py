@@ -8,7 +8,7 @@ import pandas as pd
 import yfinance as yf
 
 TICKER = "GC=F"
-OFFSET = 0.0
+OFFSET = -13.83
 SWING = 3
 RR = 2.0
 BUFFER = 0.5
