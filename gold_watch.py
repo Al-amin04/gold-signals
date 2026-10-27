@@ -19,7 +19,7 @@ import yfinance as yf
 TICKER = "GC=F"        # gold futures (free data)
 OFFSET = 0.0           # broker price minus GC=F price
 BIN_OFFSET = "0h"      # shifts the 4H candle times to match your broker
-SWING_4H = 2           # candles each side to confirm a 4H swing
+SWING_4H = 4           # candles each side to confirm a 4H swing
 APPROACH_PCT = 0.25    # "approaching" = within 0.25% of the zone
 STATUS_HOUR_UTC = 6    # daily status message time (UTC)
 STATE_FILE = "market_state.json"
