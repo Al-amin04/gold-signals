@@ -1,6 +1,6 @@
 {
  "bias": "bull",
  "zone_key": "bull|2026-10-27 08:00:00-04:00|2026-10-27 00:00:00-04:00",
- "stage": "mitigated",
- "status_date": "2026-10-29"
+ "stage": "invalid",
+ "status_date": "2026-10-30"
 }
