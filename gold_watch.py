@@ -78,14 +78,13 @@ def swings(df, n):
 
 
 def trend(df):
-    sh, sl = swings(df, SWING_4H)
-    if len(sh) < 2 or len(sl) < 2:
+    up = bull_zone(df)
+    dn = bull_zone(flip(df))
+    if up is None and dn is None:
         return None
-    if sh[-1][1] > sh[-2][1] and sl[-1][1] > sl[-2][1]:
-        return "bull"
-    if sh[-1][1] < sh[-2][1] and sl[-1][1] < sl[-2][1]:
-        return "bear"
-    return None
+    ub = up["brk"] if up else -1
+    db = dn["brk"] if dn else -1
+    return "bull" if ub > db else "bear"
 
 
 def bull_zone(df):
