@@ -8,7 +8,11 @@
   "EUR_USD": {
    "bias": "bear",
    "zone_key": "bear|2026-11-06 06:00:00+00:00|2026-11-04 10:00:00+00:00",
-   "stage": "approaching"
+   "stage": "mitigated",
+   "sweeps": [
+    "Previous day high|2026-11-09",
+    "Asian high|2026-11-10"
+   ]
   },
   "GBP_USD": {
    "bias": "bear",
@@ -36,7 +40,7 @@
   },
   "USD_CAD": {
    "bias": "bull",
-   "zone_key": "bull|2026-11-06 10:00:00+00:00|2026-11-04 06:00:00+00:00",
+   "zone_key": "bull|2026-11-10 10:00:00+00:00|2026-11-09 06:00:00+00:00",
    "stage": "waiting"
   },
   "NZD_USD": {
@@ -44,7 +48,8 @@
    "zone_key": "bear|2026-11-06 02:00:00+00:00|2026-11-05 02:00:00+00:00",
    "stage": "mitigated",
    "sweeps": [
-    "Previous day high|2026-11-09"
+    "Previous day high|2026-11-09",
+    "Asian high|2026-11-10"
    ]
   }
  },
