@@ -8,12 +8,12 @@
   "EUR_USD": {
    "bias": "bear",
    "zone_key": "bear|2026-11-06 06:00:00+00:00|2026-11-04 10:00:00+00:00",
-   "stage": "waiting"
+   "stage": "approaching"
   },
   "GBP_USD": {
    "bias": "bear",
    "zone_key": "bear|2026-11-06 10:00:00+00:00|2026-11-04 06:00:00+00:00",
-   "stage": "waiting"
+   "stage": "approaching"
   },
   "USD_JPY": {
    "bias": "bull",
@@ -23,7 +23,7 @@
   "GBP_JPY": {
    "bias": "bear",
    "zone_key": "bear|2026-11-06 14:00:00+00:00|2026-11-04 06:00:00+00:00",
-   "stage": "waiting"
+   "stage": "approaching"
   },
   "AUD_USD": {
    "bias": "bear",
@@ -38,7 +38,7 @@
   "NZD_USD": {
    "bias": "bear",
    "zone_key": "bear|2026-11-06 02:00:00+00:00|2026-11-05 02:00:00+00:00",
-   "stage": "waiting"
+   "stage": "approaching"
   }
  },
  "status_date": "2026-11-09"
