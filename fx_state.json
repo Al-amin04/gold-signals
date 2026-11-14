@@ -30,8 +30,8 @@
   },
   "GBP_JPY": {
    "bias": "bear",
-   "zone_key": "bear|2026-11-12 14:00:00+00:00|2026-11-10 10:00:00+00:00",
-   "stage": "approaching"
+   "zone_key": "bear|2026-11-13 18:00:00+00:00|2026-11-10 02:00:00+00:00",
+   "stage": "waiting"
   },
   "AUD_USD": {
    "bias": "bear",
