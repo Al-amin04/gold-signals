@@ -4,7 +4,9 @@
    "bias": "bear",
    "zone_key": "bear|2026-11-16 02:00:00+00:00|2026-11-12 22:00:00+00:00",
    "stage": "mitigated",
-   "sweeps": []
+   "sweeps": [
+    "Asian high|2026-11-17"
+   ]
   },
   "EUR_USD": {
    "bias": "bear",
