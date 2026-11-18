@@ -2,8 +2,8 @@
  "pairs": {
   "XAU_USD": {
    "bias": "bear",
-   "zone_key": "bear|2026-11-16 02:00:00+00:00|2026-11-12 22:00:00+00:00",
-   "stage": "mitigated",
+   "zone_key": "bear|2026-11-17 22:00:00+00:00|2026-11-17 14:00:00+00:00",
+   "stage": "waiting",
    "sweeps": [
     "Asian high|2026-11-17"
    ]
