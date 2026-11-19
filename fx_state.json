@@ -15,7 +15,8 @@
    "sweeps": [
     "Previous day high|2026-11-09",
     "Asian high|2026-11-10",
-    "Asian high|2026-11-19"
+    "Asian high|2026-11-19",
+    "Previous day high|2026-11-18"
    ]
   },
   "GBP_USD": {
@@ -28,14 +29,17 @@
    ]
   },
   "USD_JPY": {
-   "bias": "bear",
-   "zone_key": "bear|2026-11-17 02:00:00+00:00|2026-11-13 02:00:00+00:00",
-   "stage": "approaching"
+   "bias": "bull",
+   "zone_key": "bull|2026-11-19 06:00:00+00:00|2026-11-18 06:00:00+00:00",
+   "stage": "waiting"
   },
   "GBP_JPY": {
    "bias": "bear",
    "zone_key": "bear|2026-11-18 14:00:00+00:00|2026-11-17 22:00:00+00:00",
-   "stage": "approaching"
+   "stage": "mitigated",
+   "sweeps": [
+    "Asian high|2026-11-19"
+   ]
   },
   "AUD_USD": {
    "bias": "bear",
@@ -45,12 +49,16 @@
   "USD_CAD": {
    "bias": "bull",
    "zone_key": "bull|2026-11-18 14:00:00+00:00|2026-11-17 14:00:00+00:00",
-   "stage": "approaching"
+   "stage": "mitigated",
+   "sweeps": [
+    "Previous day low|2026-11-18",
+    "Asian low|2026-11-19"
+   ]
   },
   "NZD_USD": {
-   "bias": "bear",
-   "zone_key": "bear|2026-11-13 14:00:00+00:00|2026-11-10 02:00:00+00:00",
-   "stage": "waiting",
+   "bias": "bull",
+   "zone_key": "bull|2026-11-19 06:00:00+00:00|2026-11-18 14:00:00+00:00",
+   "stage": "mitigated",
    "sweeps": [
     "Previous day high|2026-11-09",
     "Asian high|2026-11-10"
