@@ -31,7 +31,10 @@
   "USD_JPY": {
    "bias": "bull",
    "zone_key": "bull|2026-11-19 06:00:00+00:00|2026-11-18 06:00:00+00:00",
-   "stage": "waiting"
+   "stage": "mitigated",
+   "sweeps": [
+    "Previous day low|2026-11-19"
+   ]
   },
   "GBP_JPY": {
    "bias": "bear",
@@ -56,9 +59,9 @@
    ]
   },
   "NZD_USD": {
-   "bias": "bull",
-   "zone_key": "bull|2026-11-19 06:00:00+00:00|2026-11-18 14:00:00+00:00",
-   "stage": "mitigated",
+   "bias": "bear",
+   "zone_key": "bear|2026-11-19 22:00:00+00:00|2026-11-19 10:00:00+00:00",
+   "stage": "waiting",
    "sweeps": [
     "Previous day high|2026-11-09",
     "Asian high|2026-11-10",
