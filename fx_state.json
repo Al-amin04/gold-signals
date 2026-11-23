@@ -17,7 +17,9 @@
     "Asian high|2026-11-10",
     "Asian high|2026-11-19",
     "Previous day high|2026-11-18",
-    "Asian high|2026-11-20"
+    "Asian high|2026-11-20",
+    "Previous day high|2026-11-22",
+    "Asian high|2026-11-23"
    ]
   },
   "GBP_USD": {
@@ -72,5 +74,5 @@
    ]
   }
  },
- "status_date": "2026-11-20"
+ "status_date": "2026-11-23"
 }
