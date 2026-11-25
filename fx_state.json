@@ -2,16 +2,16 @@
  "pairs": {
   "XAU_USD": {
    "bias": "bear",
-   "zone_key": "bear|2026-11-17 22:00:00+00:00|2026-11-17 14:00:00+00:00",
+   "zone_key": "bear|2026-11-25 10:00:00+00:00|2026-11-23 10:00:00+00:00",
    "stage": "waiting",
    "sweeps": [
     "Asian high|2026-11-17"
    ]
   },
   "EUR_USD": {
-   "bias": "bear",
-   "zone_key": "bear|2026-11-23 10:00:00+00:00|2026-11-23 02:00:00+00:00",
-   "stage": "mitigated",
+   "bias": "bull",
+   "zone_key": "bull|2026-11-25 14:00:00+00:00|2026-11-25 06:00:00+00:00",
+   "stage": "waiting",
    "sweeps": [
     "Previous day high|2026-11-09",
     "Asian high|2026-11-10",
@@ -55,11 +55,14 @@
   "AUD_USD": {
    "bias": "bear",
    "zone_key": "bear|2026-11-25 02:00:00+00:00|2026-11-24 14:00:00+00:00",
-   "stage": "waiting"
+   "stage": "mitigated",
+   "sweeps": [
+    "Previous day high|2026-11-24"
+   ]
   },
   "USD_CAD": {
    "bias": "bear",
-   "zone_key": "bear|2026-11-24 18:00:00+00:00|2026-11-23 14:00:00+00:00",
+   "zone_key": "bear|2026-11-25 14:00:00+00:00|2026-11-23 14:00:00+00:00",
    "stage": "waiting",
    "sweeps": [
     "Previous day low|2026-11-18",
@@ -72,7 +75,7 @@
   "NZD_USD": {
    "bias": "bear",
    "zone_key": "bear|2026-11-20 18:00:00+00:00|2026-11-20 06:00:00+00:00",
-   "stage": "waiting",
+   "stage": "approaching",
    "sweeps": [
     "Previous day high|2026-11-09",
     "Asian high|2026-11-10",
