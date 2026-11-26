@@ -11,7 +11,7 @@
   "EUR_USD": {
    "bias": "bull",
    "zone_key": "bull|2026-11-25 14:00:00+00:00|2026-11-25 06:00:00+00:00",
-   "stage": "waiting",
+   "stage": "approaching",
    "sweeps": [
     "Previous day high|2026-11-09",
     "Asian high|2026-11-10",
