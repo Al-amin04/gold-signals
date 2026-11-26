@@ -40,7 +40,8 @@
     "Previous day low|2026-11-19",
     "Asian high|2026-11-23",
     "Previous day high|2026-11-23",
-    "Asian high|2026-11-24"
+    "Asian high|2026-11-24",
+    "Asian high|2026-11-26"
    ]
   },
   "GBP_JPY": {
@@ -49,7 +50,8 @@
    "stage": "mitigated",
    "sweeps": [
     "Asian high|2026-11-19",
-    "Asian high|2026-11-24"
+    "Asian high|2026-11-24",
+    "Asian high|2026-11-26"
    ]
   },
   "AUD_USD": {
@@ -84,5 +86,5 @@
    ]
   }
  },
- "status_date": "2026-11-25"
+ "status_date": "2026-11-26"
 }
